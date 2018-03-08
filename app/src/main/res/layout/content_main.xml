@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
 
-        android:background="@color/black"
+        android:background="@drawable/background"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="io.github.httponefrenchtoast.soundboard.MainActivity"
+        tools:context="com.vitassoundboard.app.soundboard.com.vitassoundboard.httponefrenchtoast.MainActivity"
         tools:showIn="@layout/activity_main">
 
         <TextView

@@ -1,4 +1,4 @@
-package io.github.httponefrenchtoast.soundboard;
+package com.vitassoundboard.app.soundboard;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

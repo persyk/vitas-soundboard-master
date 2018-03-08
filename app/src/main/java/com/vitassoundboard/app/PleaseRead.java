@@ -1,10 +1,10 @@
-package io.github.httponefrenchtoast.soundboard;
+package com.vitassoundboard.app;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 
-import io.github.httponefrenchtoast.soundboard.R;
+import com.vitassoundboard.app.soundboard.R;
 
 
 public class PleaseRead extends Activity {

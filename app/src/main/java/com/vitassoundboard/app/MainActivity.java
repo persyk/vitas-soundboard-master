@@ -1,4 +1,4 @@
-package io.github.httponefrenchtoast.soundboard;
+package com.vitassoundboard.app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.media.MediaPlayer;
+
+import com.vitassoundboard.app.soundboard.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Vitas Soundboard PRO");
+        getSupportActionBar().setTitle("Витас Soundboard FREE");
 
     }
 
@@ -145,6 +147,18 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.button11:
                 mp = MediaPlayer.create(this, R.raw.chandra_full);
+                mp.start();
+                mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+                    }
+                });
+                break;
+
+
+            case R.id.button12:
+                mp = MediaPlayer.create(this, R.raw.oooo);
                 mp.start();
                 mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     @Override
