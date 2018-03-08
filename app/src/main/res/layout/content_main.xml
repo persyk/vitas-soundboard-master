@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="55dp"
-            android:text="Rick Sanchez"
+            android:text="Витас (Original)"
             android:textColor="@color/black"
             android:background="@color/neonGreen"
             android:id="@+id/textView" />
@@ -31,7 +31,7 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/wub"
+            android:text="@string/haue"
             android:onClick="clickHandler"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
@@ -41,7 +41,7 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="AIDS"
+            android:text="@string/ya_prishel"
             android:onClick="clickHandler"
             android:layout_below="@+id/imageView"
             android:layout_alignLeft="@+id/button4"
@@ -51,7 +51,7 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="L-L-Lick My Balls"
+            android:text="Ху-а-хи"
             android:onClick="clickHandler"
             android:layout_below="@+id/button1"
             android:layout_alignParentLeft="true"
@@ -61,7 +61,7 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rikki-Tikki-Tavi"
+            android:text="А-а-а-а"
             android:onClick="clickHandler"
             android:layout_above="@+id/button5"
             android:layout_toRightOf="@+id/button5"
@@ -71,17 +71,18 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rubber Baby Buggy Bumpers"
+            android:text="Бл-рл-рл Ла-а-а"
             android:onClick="clickHandler"
             android:layout_below="@+id/button3"
             android:layout_alignParentLeft="true"
+            android:layout_marginRight="50dp"
             android:layout_alignParentStart="true" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Burger Time"
+            android:text="A-a-a (Full)"
             android:onClick="clickHandler"
             android:layout_below="@+id/button4"
             android:layout_toRightOf="@+id/button5"
@@ -91,7 +92,7 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/grass"
+            android:text="Chandra"
             android:onClick="clickHandler"
             android:layout_below="@+id/button5"
             android:layout_alignParentLeft="true"
@@ -101,17 +102,17 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/jack"
+            android:text="из хрустальных слёз"
             android:onClick="clickHandler"
             android:layout_alignTop="@+id/button9"
-            android:layout_alignRight="@+id/button12"
-            android:layout_alignEnd="@+id/button12" />
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/jump"
+            android:text="Из мира грёз"
             android:onClick="clickHandler"
             android:layout_below="@+id/button11"
             android:layout_alignParentLeft="true"
@@ -121,7 +122,7 @@
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/news"
+            android:text="Для любви"
             android:onClick="clickHandler"
             android:layout_alignTop="@+id/button11"
             android:layout_alignLeft="@+id/button12"
@@ -131,7 +132,7 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sewer"
+            android:text="Chandra (Full)"
             android:onClick="clickHandler"
             android:layout_below="@id/button7"
             android:layout_alignParentLeft="true"
@@ -141,7 +142,7 @@
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/shum"
+            android:text="Оу-уо-уо"
             android:onClick="clickHandler"
             android:layout_below="@+id/button6"
             android:layout_alignRight="@+id/button6"
@@ -150,284 +151,20 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/rick_sanchez"
+            android:src="@drawable/vitas"
             android:id="@+id/imageView"
             android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:id="@+id/mortTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Morty Smith"
+            android:text="Никита Деев (Coming Soon)"
             android:textColor="@color/black"
             android:background="@color/neonGreen"
             android:layout_below="@+id/button9"
             />
 
-        <ImageView
-            android:id="@+id/mortImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/morty_smith"
-            android:layout_below="@+id/mortTextView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/die"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/mortImageView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/pants"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/mortImageView"
-            android:layout_alignLeft="@+id/button8"
-            android:layout_alignStart="@+id/button8" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/together"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button13"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <TextView
-            android:id="@+id/meeseeksTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mr. Meeseeks"
-            android:textColor="@color/black"
-            android:background="@color/neonGreen"
-            android:layout_below="@+id/button15"
-            />
-
-        <ImageView
-            android:id="@+id/meeseekImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/mr_meeseeks"
-            android:layout_below="@+id/meeseeksTextView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/canDo"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/meeseekImageView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/lookAtMe"
-            android:onClick="clickHandler"
-            android:layout_alignTop="@+id/button16"
-            android:layout_alignLeft="@+id/button14"
-            android:layout_alignStart="@+id/button14" />
-
-
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/allDie"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button17"
-            android:layout_alignLeft="@+id/button14"
-            android:layout_alignStart="@+id/button14" />
-
-        <Button
-            android:id="@+id/button20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/wannaDie"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button16"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/failures"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button20"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button22"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/killHim"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button21"
-            />
-
-        <Button
-            android:id="@+id/button23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ooo"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button19"
-            android:layout_alignLeft="@+id/button14"
-            android:layout_alignStart="@+id/button14" />
-
-        <Button
-            android:id="@+id/button24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shortGame"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button23"
-            android:layout_alignLeft="@+id/button14"
-            android:layout_alignStart="@+id/button14" />
-
-        <Button
-            android:id="@+id/button25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/pain"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button22"
-            />
-
-        <TextView
-            android:id="@+id/terryTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Scary Terry"
-            android:textColor="@color/black"
-            android:background="@color/neonGreen"
-            android:layout_below="@+id/button25"
-            />
-
-        <ImageView
-            android:id="@+id/terryImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/scarry_terry"
-            android:layout_below="@+id/terryTextView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aww"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button28"
-            />
-
-        <Button
-            android:id="@+id/button27"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/late"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button33"
-            android:layout_toRightOf="@+id/button5"
-            android:layout_toEndOf="@+id/button5" />
-
-        <Button
-            android:id="@+id/button28"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/terryPants"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button33"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button29"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/grades"
-            android:onClick="clickHandler"
-            android:layout_alignTop="@+id/button32"
-            android:layout_toRightOf="@+id/button33"
-            android:layout_toEndOf="@+id/button33" />
-
-        <Button
-            android:id="@+id/button30"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/halfs"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button27"
-            android:layout_alignLeft="@+id/button10"
-            android:layout_alignStart="@+id/button10" />
-
-        <Button
-            android:id="@+id/button31"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/run"
-            android:onClick="clickHandler"
-            android:layout_alignTop="@+id/button33"
-            android:layout_toRightOf="@+id/button33"
-            android:layout_toEndOf="@+id/button33" />
-
-        <Button
-            android:id="@+id/button32"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sex"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button26"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:id="@+id/button33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nightmare"
-            android:onClick="clickHandler"
-            android:layout_below="@id/terryImageView" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </RelativeLayout>
+           </RelativeLayout>
 </ScrollView>

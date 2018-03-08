@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 
+import io.github.httponefrenchtoast.soundboard.R;
+
 
 public class PleaseRead extends Activity {
 
