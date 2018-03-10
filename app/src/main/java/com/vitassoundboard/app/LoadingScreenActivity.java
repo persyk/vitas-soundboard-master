@@ -12,7 +12,10 @@ import android.support.v4.content.ContextCompat;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.crashlytics.android.Crashlytics;
 import com.vitassoundboard.app.soundboard.R;
+
+import io.fabric.sdk.android.Fabric;
 
 
 public class LoadingScreenActivity extends Activity {
@@ -27,7 +30,7 @@ public class LoadingScreenActivity extends Activity {
         window.setStatusBarColor(ContextCompat.getColor(window.getContext(), R.color.colorPrimary));
 
         super.onCreate(savedInstanceState);
-
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.loading_screen);
         delay = 3000;
 

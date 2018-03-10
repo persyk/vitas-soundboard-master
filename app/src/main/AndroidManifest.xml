@@ -19,7 +19,7 @@
 
         <activity
             android:name="com.vitassoundboard.app.PleaseRead"
-            android:screenOrientation="portrait"
+            android:screenOrientation="unspecified"
             android:theme="@style/AppTheme.PleaseReadTheme"
             >
 
@@ -34,6 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="1dc098edf19d0f6fe4ffc7b1d6cc052c0ab3533e" />
     </application>
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
