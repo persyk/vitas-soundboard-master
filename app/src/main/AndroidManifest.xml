@@ -11,12 +11,15 @@
 
         <activity
             android:name="com.vitassoundboard.app.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/app_name">
+
         </activity>
 
         <activity
             android:name="com.vitassoundboard.app.PleaseRead"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PleaseReadTheme"
             >
 
@@ -24,6 +27,7 @@
 
         <activity
             android:name="com.vitassoundboard.app.LoadingScreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,170 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fillViewport="true"
     >
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="lpt.com.attendance.ActivityClass.Activity_Class">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
-        android:background="@drawable/background"
+        android:scaleType="centerCrop"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context="com.vitassoundboard.app.soundboard.com.vitassoundboard.httponefrenchtoast.MainActivity"
         tools:showIn="@layout/activity_main">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/neonGreen"
             android:paddingTop="55dp"
             android:text="Витас (Original)"
-            android:textColor="@color/black"
-            android:background="@color/neonGreen"
-            android:id="@+id/textView" />
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/haue"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:onClick="clickHandler"
+            android:text="@string/haue" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ya_prishel"
+            android:layout_above="@+id/button4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:onClick="clickHandler"
-            android:layout_below="@+id/imageView"
-            android:layout_alignLeft="@+id/button4"
-            android:layout_alignStart="@+id/button4" />
+            android:text="@string/ya_prishel" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ху-а-хи"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button1"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button1"
+            android:onClick="clickHandler"
+            android:text="Ху-а-хи" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="А-а-а-а"
-            android:onClick="clickHandler"
             android:layout_above="@+id/button5"
-            android:layout_toRightOf="@+id/button5"
-            android:layout_toEndOf="@+id/button5" />
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:onClick="clickHandler"
+            android:text="А-а-а-а" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Бл-рл-рл Ла-а-а"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button3"
             android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button3"
             android:layout_marginRight="50dp"
-            android:layout_alignParentStart="true" />
+            android:onClick="clickHandler"
+            android:text="Бл-рл-рл Ла-а-а" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A-a-a (Full)"
-            android:onClick="clickHandler"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignRight="@+id/button2"
             android:layout_below="@+id/button4"
-            android:layout_toRightOf="@+id/button5"
-            android:layout_toEndOf="@+id/button5" />
+            android:onClick="clickHandler"
+            android:text="A-a-a (Full)" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chandra"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button5"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button5"
+            android:onClick="clickHandler"
+            android:text="Chandra" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="из хрустальных слёз"
+            android:layout_alignEnd="@+id/button10"
+            android:layout_alignRight="@+id/button10"
+            android:layout_below="@+id/button10"
             android:onClick="clickHandler"
-            android:layout_alignTop="@+id/button9"
-            android:layout_marginLeft="130dp"
-            android:layout_marginStart="130dp" />
+            android:text="из хрустальных слёз" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Из мира грёз"
-            android:onClick="clickHandler"
-            android:layout_below="@+id/button11"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button11"
+            android:onClick="clickHandler"
+            android:text="Из мира грёз" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Для любви"
+            android:layout_alignEnd="@+id/button6"
+            android:layout_alignRight="@+id/button6"
+            android:layout_below="@+id/button12"
             android:onClick="clickHandler"
-            android:layout_alignTop="@+id/button11"
-            android:layout_alignLeft="@+id/button12"
-            android:layout_alignStart="@+id/button12" />
+            android:text="Для любви" />
 
         <Button
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chandra (Full)"
-            android:onClick="clickHandler"
-            android:layout_below="@id/button7"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/button7"
+            android:onClick="clickHandler"
+            android:text="Chandra (Full)" />
 
         <Button
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Оу-уо-уо"
-            android:onClick="clickHandler"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignStart="@+id/button4"
             android:layout_below="@+id/button6"
-            android:layout_alignRight="@+id/button6"
-            android:layout_alignEnd="@+id/button6" />
+            android:onClick="clickHandler"
+            android:text="Оу-уо-уо" />
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/vitas"
-            android:id="@+id/imageView"
             android:layout_below="@+id/textView"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/vitas" />
 
         <TextView
             android:id="@+id/mortTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Никита Деев (Coming Soon)"
-            android:textColor="@color/black"
-            android:background="@color/neonGreen"
             android:layout_below="@+id/button9"
-            />
+            android:background="@color/neonGreen"
+            android:text="Никита Деев (Coming Soon)"
+            android:textColor="@color/black" />
 
-           </RelativeLayout>
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2993555322878533/4029724405">
+
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+    </FrameLayout>
 </ScrollView>
